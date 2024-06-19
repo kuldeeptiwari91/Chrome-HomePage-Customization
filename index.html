@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main-content" >
+            <div class="card-container ">
+                <div class="card">
+                    <img src="android-robot-bot-icon.png" alt="Stackoverflow" class="icon">
+                    <a href="https://developer.android.com/develop" target="_blank">Android</a>
+                </div>
+                <div class="card">
+                    <img src="chatgpt-icon.png" alt="ChatGPT" class="icon">
+                    <a href="https://www.github.com" target="_blank">ChatGPT</a>
+                </div>
+                <div class="card">
+                    <img src="github-icon.png" alt="GitHub" class="icon">
+                    <a href="https://www.github.com" target="_blank">GitHub</a>
+                </div>
+                <div class="card">
+                    <img src="gmail-icon.png" alt="Stackoverflow" class="icon">
+                    <a href="https://mail.google.com/" target="_blank">Gmail</a>
+                </div>
+                <div class="card">
+                    <img src="linkedin_icon.png" alt="LinkedIn" class="icon">
+                    <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+                </div>
+                <div class="card">
+                    <img src="notion-icon.png" alt="Notion" class="icon">
+                    <a href="https://www.notion.so" target="_blank">Notion</a>
+                </div>
+                <div class="card">
+                    <img src="stackoverflow-color-icon.png" alt="Stackoverflow" class="icon">
+                    <a href="https://www.github.com" target="_blank">Stackoverflow</a>
+                </div>
+            </div>
+            <div class="middle-section">
+                <div class="quote-section">
+                    <img src="energy.gif" alt="Motivational Image" class="quote-image">
+                    <p class="quote">"The only way to do great work is to love what you do." - Steve Jobs</p>
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search the web...">
+                    <img src="search-icon.png" alt="Search" class="search-icon">
+                </div>
+            </div>
+            <div class="large-card">
+                <h2>To-Do List</h2>
+                <div class="todo-list" id="todo-list">
+                    <label><input type="checkbox"> Go to gym</label><br>
+                    <label><input type="checkbox"> Finish project</label><br>
+                    <label><input type="checkbox"> Call mom</label><br>
+                </div>
+                <input type="text" placeholder="Add new task" id="new-task">
+                <button onclick="addTask()">Add</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

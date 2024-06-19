@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; /* Removed top padding */
+    background: linear-gradient(to right, #f7f7f7, #f0e5d8); 
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    gap: 40px;
+}
+
+.card-container {
+    /* border: 2px solid greenyellow; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 200px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    color: #000;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 0; /* Remove any margin that might be causing space */
+}
+
+.large-card {
+   /* border: 2px solid red; */
+min-height: 540px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    color: #000;
+}
+
+.card a {
+    text-decoration: none;
+    color: #0073b1;
+    font-size: 18px;
+}
+
+.todo-list input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.middle-section {
+    /* border: 2px solid greenyellow; */
+    height: 600px;
+    display: flex;
+    flex-direction:column;
+    align-items: flex-end;
+    gap: 20px; 
+    width: 100%;
+    max-width: 600px;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+    justify-content:space-around;
+    width: 380px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.quote-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.quote {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.quote-image {
+    width: 380px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .main-content {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .middle-section {
+        max-width: 400px;
+    }
+}
+
