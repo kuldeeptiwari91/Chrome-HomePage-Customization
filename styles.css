@@ -24,7 +24,7 @@ body {
 }
 
 .card-container {
-    border: 2px solid greenyellow;
+    /* border: 2px solid greenyellow; */
     position: relative;
     display: flex;
     flex-direction: column;
@@ -51,7 +51,7 @@ body {
 }
 
 .large-card {
-    border: 2px solid greenyellow;
+    /* border: 2px solid greenyellow; */
     min-height: 540px;
     background-color: #fff;
     border-radius: 8px;
@@ -73,7 +73,7 @@ body {
 }
 
 .middle-section {
-    border: 2px solid greenyellow;
+    /* border: 2px solid greenyellow; */
     height: 600px;
     display: flex;
     flex-direction: column;
